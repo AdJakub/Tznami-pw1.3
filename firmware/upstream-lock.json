@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/vial-kb/vial-qmk",
+  "commit": "dd43959ae5c08d8a28d38a1acf7b04e86b14a344",
+  "chibios_contrib_commit": "3ac181e4ca5cafddaf8b472baa1d09c2b24c77b6",
+  "status": "source prepared; full compilation and physical tests pending"
+}

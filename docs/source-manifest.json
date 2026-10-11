@@ -1,0 +1,200 @@
+[
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-07\\i-get-this-x20\\outputs\\pw67_recovered\\pw67.kicad_sch",
+    "destination": "hardware/pw67.kicad_sch",
+    "bytes": 292825,
+    "sha256": "dfb854837d2769e8d90dfa05e35a1a70f783e82be20120c243cf459dda72fa97"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-07\\i-get-this-x20\\outputs\\pw67_recovered\\pw67_7x9.kicad_sch",
+    "destination": "hardware/pw67_7x9.kicad_sch",
+    "bytes": 289080,
+    "sha256": "2ee1dc88ea57d1e51ba6362ec424fd62d5352745d8ed922d80cc22d9d27d2c81"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-07\\i-get-this-x20\\outputs\\pw67_recovered\\pw67.kicad_pro",
+    "destination": "hardware/pw67.kicad_pro",
+    "bytes": 17250,
+    "sha256": "604767c1939c6c6db755efeaf3ede72d2cc1e19dc1fe27f169d88944792233c1"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-07\\i-get-this-x20\\outputs\\pw67_recovered\\pw67_diodes_clear.kicad_pcb",
+    "destination": "hardware/pw67.kicad_pcb",
+    "bytes": 918910,
+    "sha256": "e1b82316fc005760cfb3326a56ad7963ae27180c25aea465ec95d2e842aa3d58"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-07\\i-get-this-x20\\outputs\\pw67_recovered\\kb2040.pretty\\kb2040.kicad_mod",
+    "destination": "hardware/kb2040.pretty/kb2040.kicad_mod",
+    "bytes": 21852,
+    "sha256": "2d25a6904cd000703f79125c1e4094a3c439d8f9beb7dc1b55bef127271190cb"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\libraries\\kb2040-kicad-master\\kb2040.kicad_sym",
+    "destination": "hardware/kb2040.kicad_sym",
+    "bytes": 5499,
+    "sha256": "3b8cd959ca0f46059e895b59f8a23807f9b24762f1b9f00a0ff81b4f30fb033b"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\libraries\\kb2040-kicad-master\\5302 KB2040.step",
+    "destination": "hardware/5302 KB2040.step",
+    "bytes": 2161058,
+    "sha256": "bc990ea632850b47e18d6c8fcf9ffe5ca101bacc450d628d4d366b0a7890ae57"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\libraries\\kb2040-kicad-master\\README.md",
+    "destination": "references/kb2040-library-source.md",
+    "bytes": 681,
+    "sha256": "ad5cea51de2b8ae08307150b711af7dc49999414e9541c7d231f0995c5cd438f"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_Lower_Shell_cable_channel.png",
+    "destination": "images/PW67_Lower_Shell_cable_channel.png",
+    "bytes": 81777,
+    "sha256": "9477b791d4f759a0011cdb53e9d4fb4336ed9a7f13d3d9fd2547bc3f1a41c773"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_Lower_Shell_OLED.f3d",
+    "destination": "cad/PW67_Lower_Shell_OLED.f3d",
+    "bytes": 170186,
+    "sha256": "49bebca494ec86cef277374a08360c049a6e145b897c6a7940fca82acc797e04"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_Lower_Shell_OLED_print.stl",
+    "destination": "cad/print/PW67_Lower_Shell_OLED_print.stl",
+    "bytes": 79684,
+    "sha256": "a8d6121f059b5e96a4a4dcde59977ad85c77db824e620d1181e929557b67cf9a"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_OLED_Assembly.f3d",
+    "destination": "cad/PW67_OLED_Assembly.f3d",
+    "bytes": 2223228,
+    "sha256": "54fd21871e82df45147c5d1add9058f4dc1c877bddcfa3f2a265f79366231288"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_OLED_assembly.png",
+    "destination": "images/PW67_OLED_assembly.png",
+    "bytes": 25022,
+    "sha256": "2c3cd6d5cd6c72d469d09688ee3a06bb66c71753331d0799c19ce963fcdc072f"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_OLED_Clip_A.f3d",
+    "destination": "cad/PW67_OLED_Clip_A.f3d",
+    "bytes": 150312,
+    "sha256": "4297d118bb09ae3c1af3ede866dcac89b34a98cd65edb069579cae3d34646143"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_OLED_Clip_A_print.stl",
+    "destination": "cad/print/PW67_OLED_Clip_A_print.stl",
+    "bytes": 13084,
+    "sha256": "4f1037208873671de5b4be0b373ebfacf52de5405ac7bb18d82e3209f56c9165"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_OLED_Clip_B.f3d",
+    "destination": "cad/PW67_OLED_Clip_B.f3d",
+    "bytes": 108569,
+    "sha256": "8a7b90a3a38ef05a3d6939ca4f11063a21342525d4228b902845ad7fa9ed7d1e"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_OLED_Clip_B_print.stl",
+    "destination": "cad/print/PW67_OLED_Clip_B_print.stl",
+    "bytes": 12284,
+    "sha256": "d4f40c54b47024a4adc148153bf64ee9324a51883a400ed31e6b9f992ae2c8d7"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_OLED_underside.png",
+    "destination": "images/PW67_OLED_underside.png",
+    "bytes": 264277,
+    "sha256": "6fa6567b2f50b6bc5852ef5f3eafb4d47476731347449be33c5d95460de2cd15"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_Upper_Frame_OLED.f3d",
+    "destination": "cad/PW67_Upper_Frame_OLED.f3d",
+    "bytes": 240346,
+    "sha256": "72fabcf1b5bca345c4bdc3ae5277e78244bc709389a9c4a2d6cc95c58dcf258c"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_Upper_Frame_OLED_print.stl",
+    "destination": "cad/print/PW67_Upper_Frame_OLED_print.stl",
+    "bytes": 69884,
+    "sha256": "b306412a2245e4986113321fa53888a1ba7a1a12fe5e9a9a02e7b2f31c7eee64"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\i-m-designing-a-custom-67\\outputs\\PW67_OLED_assembly_notes.md",
+    "destination": "cad/assembly-notes.md",
+    "bytes": 12274,
+    "sha256": "ba77b4e899e6b656d3debae3f86ec0813c57c62b5c4c8816810872171752d5db"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\bas\\outputs\\PW67_Switch_Plate.f3d",
+    "destination": "cad/PW67_Switch_Plate.f3d",
+    "bytes": 1009621,
+    "sha256": "a4345a53baad0e92cff8d9ef18d165e34be598068cd6e9930bc430ec4364e276"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\bas\\outputs\\PW67_Case_Preview.png",
+    "destination": "images/PW67_Case_Preview.png",
+    "bytes": 49459,
+    "sha256": "650fe242b06299729538facb9e86e303c3da44948f92f651b0c169ea885b7903"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\Codex\\2026-10-11\\referenced-chatgpt-conversation-this-is-an-2\\work\\latest-drc.json",
+    "destination": "docs/validation/current-board-drc.json",
+    "bytes": 132339,
+    "sha256": "ff6f75ffdcf6fcee6591ff750f98b287703024acceb100a4641d87852cf5cb1c"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\footprints\\com_github_ebastler_marbastlib\\marbastlib-mx.pretty\\STAB_MX_2.25u.kicad_mod",
+    "destination": "hardware/libraries/marbastlib-mx.pretty/STAB_MX_2.25u.kicad_mod",
+    "bytes": 7047,
+    "sha256": "1788167a8a88a6c997f950619120642baa43ec5f2ca0e7b78fb0c99c10d6c7c7"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\footprints\\com_github_ebastler_marbastlib\\marbastlib-mx.pretty\\STAB_MX_2.75u.kicad_mod",
+    "destination": "hardware/libraries/marbastlib-mx.pretty/STAB_MX_2.75u.kicad_mod",
+    "bytes": 7047,
+    "sha256": "7d08a87a17a6e46d126e32f0186b99f0fecc7cbeb7cddc1a9324761a1f7ff126"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\footprints\\com_github_ebastler_marbastlib\\marbastlib-mx.pretty\\STAB_MX_2u.kicad_mod",
+    "destination": "hardware/libraries/marbastlib-mx.pretty/STAB_MX_2u.kicad_mod",
+    "bytes": 7014,
+    "sha256": "e6dbfefba073f23abe8a003656cee4d54d051cb21535850f3332c651f54c9bfc"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\footprints\\com_github_ebastler_marbastlib\\marbastlib-mx.pretty\\STAB_MX_6.25u.kicad_mod",
+    "destination": "hardware/libraries/marbastlib-mx.pretty/STAB_MX_6.25u.kicad_mod",
+    "bytes": 7068,
+    "sha256": "c0ddbafba01affa537638cd7ddec12c17ec0ea15c1e1436886f0a3d7b67a2d4d"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\footprints\\com_github_ebastler_marbastlib\\marbastlib-mx.pretty\\SW_MX_1.25u.kicad_mod",
+    "destination": "hardware/libraries/marbastlib-mx.pretty/SW_MX_1.25u.kicad_mod",
+    "bytes": 5302,
+    "sha256": "3a5d7a03bda2843780d4af9a77b23b29fe37b5306e017141ddd17678162b4b06"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\footprints\\com_github_ebastler_marbastlib\\marbastlib-mx.pretty\\SW_MX_1.5u.kicad_mod",
+    "destination": "hardware/libraries/marbastlib-mx.pretty/SW_MX_1.5u.kicad_mod",
+    "bytes": 5293,
+    "sha256": "724b9df30f869c894e12b07dccc34f7721ec61d7092138822d8c89ac2a2b0b1c"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\footprints\\com_github_ebastler_marbastlib\\marbastlib-mx.pretty\\SW_MX_1.75u.kicad_mod",
+    "destination": "hardware/libraries/marbastlib-mx.pretty/SW_MX_1.75u.kicad_mod",
+    "bytes": 5302,
+    "sha256": "26c629eaab2313a63de05dd1e68d64a8d6009dd1da19fcf8f95afb5d5854f45f"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\footprints\\com_github_ebastler_marbastlib\\marbastlib-mx.pretty\\SW_MX_1u.kicad_mod",
+    "destination": "hardware/libraries/marbastlib-mx.pretty/SW_MX_1u.kicad_mod",
+    "bytes": 5303,
+    "sha256": "8c296048042d3bfba8d561d29e75f13e7a371c027bba5f7015aeed6f9af088b6"
+  },
+  {
+    "source": "C:\\Users\\ejaku\\Documents\\KiCad\\10.0\\3rdparty\\symbols\\com_github_ebastler_marbastlib\\marbastlib-mx.kicad_sym",
+    "destination": "hardware/libraries/marbastlib-mx.kicad_sym",
+    "bytes": 30888,
+    "sha256": "cd4b15c99ab7d05c32235457efbf29630132631a76974e1adff854961707321b"
+  }
+]

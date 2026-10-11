@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "kb2040") (type "KiCad") (uri "${KIPRJMOD}/kb2040.kicad_sym") (options "") (descr "Original controller symbol"))
+  (lib (name "PCM_marbastlib-mx") (type "KiCad") (uri "${KIPRJMOD}/libraries/marbastlib-mx.kicad_sym") (options "") (descr "Installed marbastlib symbols"))
+)

@@ -1,0 +1,98 @@
+{
+  "+3.3V": {
+    "symbol_pin": "18",
+    "pinfunction": "3.3v_18"
+  },
+  "/COL0": {
+    "symbol_pin": "11",
+    "pinfunction": "D7_11"
+  },
+  "/COL1": {
+    "symbol_pin": "12",
+    "pinfunction": "D8_12"
+  },
+  "/COL2": {
+    "symbol_pin": "13",
+    "pinfunction": "D9_13"
+  },
+  "/COL3": {
+    "symbol_pin": "26",
+    "pinfunction": "D10_26"
+  },
+  "/COL4": {
+    "symbol_pin": "23",
+    "pinfunction": "SCK/18_23"
+  },
+  "/COL5": {
+    "symbol_pin": "25",
+    "pinfunction": "MOSI/19_25"
+  },
+  "/COL6": {
+    "symbol_pin": "24",
+    "pinfunction": "MISO/20_24"
+  },
+  "/COL7": {
+    "symbol_pin": "22",
+    "pinfunction": "A0/26_22"
+  },
+  "/COL8": {
+    "symbol_pin": "21",
+    "pinfunction": "A1/27_21"
+  },
+  "/ROW0": {
+    "symbol_pin": "2",
+    "pinfunction": "D0_2"
+  },
+  "/ROW1": {
+    "symbol_pin": "3",
+    "pinfunction": "D1_3"
+  },
+  "/ROW2": {
+    "symbol_pin": "6",
+    "pinfunction": "D2_6"
+  },
+  "/ROW3": {
+    "symbol_pin": "7",
+    "pinfunction": "D3_7"
+  },
+  "/ROW4": {
+    "symbol_pin": "8",
+    "pinfunction": "D4_8"
+  },
+  "/ROW5": {
+    "symbol_pin": "9",
+    "pinfunction": "D5_9"
+  },
+  "/ROW6": {
+    "symbol_pin": "10",
+    "pinfunction": "D6_10"
+  },
+  "GND": {
+    "symbol_pin": "5",
+    "pinfunction": "GND_5"
+  },
+  "unconnected-(U1-A2/28-Pad20)": {
+    "symbol_pin": "20",
+    "pinfunction": "A2/28_20"
+  },
+  "unconnected-(U1-A3/29-Pad19)": {
+    "symbol_pin": "19",
+    "pinfunction": "A3/29_19"
+  },
+  "unconnected-(U1-D+-Pad1)": {
+    "symbol_pin": "1",
+    "pinfunction": "D+_1"
+  },
+  "unconnected-(U1-D--Pad14)": {
+    "symbol_pin": "14",
+    "pinfunction": "D-_14"
+  },
+  "unconnected-(U1-RAW-Pad15)": {
+    "symbol_pin": "15",
+    "pinfunction": "RAW_15"
+  },
+  "unconnected-(U1-RESET-Pad17)": {
+    "symbol_pin": "17",
+    "pinfunction": "RESET_17"
+  }
+}

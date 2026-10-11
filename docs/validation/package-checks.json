@@ -1,0 +1,12 @@
+{
+  "source_copy_hashes": "pass",
+  "fusion_archives": "archive central directories readable; full CRC not tested because deflate64 is unsupported by local Python",
+  "matrix_schematic_and_pcb": "all 61 switch/diode net assignments agree",
+  "keymap_vial_coordinates": "all 61 agree; two unused matrix positions",
+  "matrix_gpio_overlap": "none; GP12/13 reserved for OLED",
+  "repair_candidate": "26 unique pad numbers; all pad geometry unchanged; bottom-side pad positions match current PCB",
+  "firmware_compile": "not run; usable local QMK build environment absent",
+  "hardware_test": "not run",
+  "original_projects": "not changed",
+  "remote_repository": "not created; no push"
+}

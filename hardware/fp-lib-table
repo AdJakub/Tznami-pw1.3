@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "kb2040") (type "KiCad") (uri "${KIPRJMOD}/kb2040.pretty") (options "") (descr "Original footprint; known numbering errors"))
+  (lib (name "pw13_controller") (type "KiCad") (uri "${KIPRJMOD}/repair/pw13_controller.pretty") (options "") (descr "Numbering repair candidate; verify before board update"))
+  (lib (name "PCM_marbastlib-mx") (type "KiCad") (uri "${KIPRJMOD}/libraries/marbastlib-mx.pretty") (options "") (descr "Installed marbastlib copies used by current PCB"))
+)

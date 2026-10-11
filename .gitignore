@@ -1,0 +1,9 @@
+# Local editor and build state
+*.kicad_prl
+*.lck
+*.bak
+*-backups/
+.build/
+__pycache__/
+*.pyc
+firmware/build/

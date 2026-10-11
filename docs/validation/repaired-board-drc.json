@@ -1,0 +1,4972 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-11T23:27:37",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX1",
+                    "pos": {
+                        "x": 59.2575,
+                        "y": 63.8
+                    },
+                    "uuid": "982b5c6f-e889-440d-9d32-3c73cac4578e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX2",
+                    "pos": {
+                        "x": 78.3075,
+                        "y": 63.8
+                    },
+                    "uuid": "1940d2a9-3dc3-4792-bf65-b148e8b7efc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX3",
+                    "pos": {
+                        "x": 97.3575,
+                        "y": 63.8
+                    },
+                    "uuid": "820f2f23-c764-4dd5-89bf-e5f3e1895255"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX4",
+                    "pos": {
+                        "x": 116.4075,
+                        "y": 63.8
+                    },
+                    "uuid": "4a80ae40-78b1-40bd-a09e-ba3b9cc395e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX5",
+                    "pos": {
+                        "x": 135.4575,
+                        "y": 63.8
+                    },
+                    "uuid": "40e715da-ffd9-4095-83a8-e7357332dc9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX6",
+                    "pos": {
+                        "x": 154.5075,
+                        "y": 63.8
+                    },
+                    "uuid": "f6d4e258-604d-4cef-b5d2-39d639577d3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX7",
+                    "pos": {
+                        "x": 173.5575,
+                        "y": 63.8
+                    },
+                    "uuid": "8c36d7fc-0949-465b-8df4-503c43a24dc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX8",
+                    "pos": {
+                        "x": 192.6075,
+                        "y": 63.8
+                    },
+                    "uuid": "6a5d7432-5b3f-421b-b1b2-3af5db4e5a36"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX9",
+                    "pos": {
+                        "x": 211.6575,
+                        "y": 63.8
+                    },
+                    "uuid": "0b220261-9c56-4550-8181-7c458f5aafa3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX10",
+                    "pos": {
+                        "x": 230.7075,
+                        "y": 63.8
+                    },
+                    "uuid": "0d17d881-bb0f-4f19-9c27-c37de67f5229"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX11",
+                    "pos": {
+                        "x": 249.7575,
+                        "y": 63.8
+                    },
+                    "uuid": "dfbec886-383d-429c-ad0e-cff6794f9069"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX12",
+                    "pos": {
+                        "x": 268.8075,
+                        "y": 63.8
+                    },
+                    "uuid": "7df6119e-2df0-4711-a85b-0988427e4e4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX13",
+                    "pos": {
+                        "x": 287.8575,
+                        "y": 63.8
+                    },
+                    "uuid": "1df163ad-ef63-4aa7-bd90-e51720f29482"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX14",
+                    "pos": {
+                        "x": 316.4325,
+                        "y": 63.8
+                    },
+                    "uuid": "3f562e04-381a-49a5-b78f-9c4cde909e2a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "PCM_marbastlib-mx:SW_MX_1.5u doesn't match footprint given by symbol (PCM_marbastlib-mx:SW_MX_1.75u_STP_1.5)",
+            "items": [
+                {
+                    "description": "Footprint MX15",
+                    "pos": {
+                        "x": 64.02,
+                        "y": 82.85
+                    },
+                    "uuid": "281d943b-64d3-44b7-bf85-711c5cb86849"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX15",
+                    "pos": {
+                        "x": 64.02,
+                        "y": 82.85
+                    },
+                    "uuid": "281d943b-64d3-44b7-bf85-711c5cb86849"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX16",
+                    "pos": {
+                        "x": 87.8325,
+                        "y": 82.85
+                    },
+                    "uuid": "0f2d64ff-637e-4e07-86b9-186d03b004bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX17",
+                    "pos": {
+                        "x": 106.8825,
+                        "y": 82.85
+                    },
+                    "uuid": "4299e387-b6aa-4a83-911f-0f7b155268c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX18",
+                    "pos": {
+                        "x": 125.9325,
+                        "y": 82.85
+                    },
+                    "uuid": "733ddb32-1f28-4e12-b6a5-bf830b2388f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX19",
+                    "pos": {
+                        "x": 144.9825,
+                        "y": 82.85
+                    },
+                    "uuid": "0b87e6cb-efd5-47c9-b881-6fd22f03b8f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX20",
+                    "pos": {
+                        "x": 164.0325,
+                        "y": 82.85
+                    },
+                    "uuid": "224cac0d-bd08-4d01-9761-a32453dd2b80"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX21",
+                    "pos": {
+                        "x": 183.0825,
+                        "y": 82.85
+                    },
+                    "uuid": "09ca022f-1d4e-4c84-adce-7b13563d331d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX22",
+                    "pos": {
+                        "x": 202.1325,
+                        "y": 82.85
+                    },
+                    "uuid": "5e1d331a-4e71-48c3-b937-2f952fa437f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX23",
+                    "pos": {
+                        "x": 221.1825,
+                        "y": 82.85
+                    },
+                    "uuid": "559eb8a7-4e30-43c0-9e4c-709236985f91"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX24",
+                    "pos": {
+                        "x": 240.2325,
+                        "y": 82.85
+                    },
+                    "uuid": "37013b3d-7bf0-417e-b496-071b11f0b7c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX25",
+                    "pos": {
+                        "x": 259.2825,
+                        "y": 82.85
+                    },
+                    "uuid": "7c8be54e-f4d8-48a1-a107-2e2bb8941207"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX26",
+                    "pos": {
+                        "x": 278.3325,
+                        "y": 82.85
+                    },
+                    "uuid": "19afc24b-9f7d-4323-92a1-33475281848a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX27",
+                    "pos": {
+                        "x": 297.3825,
+                        "y": 82.85
+                    },
+                    "uuid": "f03e2dec-a1e1-4125-a72a-883fa7b57304"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX28",
+                    "pos": {
+                        "x": 321.195,
+                        "y": 82.85
+                    },
+                    "uuid": "bcb5bda1-0cf6-4aa9-91c5-68cafc7651fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "PCM_marbastlib-mx:SW_MX_1.75u doesn't match footprint given by symbol (PCM_marbastlib-mx:SW_MX_1u)",
+            "items": [
+                {
+                    "description": "Footprint MX29",
+                    "pos": {
+                        "x": 66.4013,
+                        "y": 101.9
+                    },
+                    "uuid": "e60c1bc6-210e-43a9-bc24-8fc39bd7a383"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX29",
+                    "pos": {
+                        "x": 66.4013,
+                        "y": 101.9
+                    },
+                    "uuid": "e60c1bc6-210e-43a9-bc24-8fc39bd7a383"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX30",
+                    "pos": {
+                        "x": 92.595,
+                        "y": 101.9
+                    },
+                    "uuid": "ede09bf5-1679-4ec6-953c-17d5fc5ec385"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX31",
+                    "pos": {
+                        "x": 111.645,
+                        "y": 101.9
+                    },
+                    "uuid": "b3f0d6f3-eb63-46c1-b45f-c5f6a6e1ecb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX32",
+                    "pos": {
+                        "x": 130.695,
+                        "y": 101.9
+                    },
+                    "uuid": "ddd2dc5c-c282-4807-931e-4c731891fe67"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX33",
+                    "pos": {
+                        "x": 149.745,
+                        "y": 101.9
+                    },
+                    "uuid": "658107ae-a293-4ff1-89f1-454d82583f10"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX34",
+                    "pos": {
+                        "x": 168.795,
+                        "y": 101.9
+                    },
+                    "uuid": "fd218347-0476-40ab-9ae3-eaccedbb759e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX35",
+                    "pos": {
+                        "x": 187.845,
+                        "y": 101.9
+                    },
+                    "uuid": "39bdc657-b5aa-4c42-9497-50ec3373012a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX36",
+                    "pos": {
+                        "x": 206.895,
+                        "y": 101.9
+                    },
+                    "uuid": "617be554-950b-4d5d-9521-bc9b068cb17c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX37",
+                    "pos": {
+                        "x": 225.945,
+                        "y": 101.9
+                    },
+                    "uuid": "6d71e44e-cb4f-4034-9404-472f86d492b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX38",
+                    "pos": {
+                        "x": 244.995,
+                        "y": 101.9
+                    },
+                    "uuid": "6136abc3-c1a3-4cbc-b701-f6ee29566df5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX39",
+                    "pos": {
+                        "x": 264.045,
+                        "y": 101.9
+                    },
+                    "uuid": "b975b899-9fcc-4f19-b5b6-647f83e798f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX40",
+                    "pos": {
+                        "x": 283.095,
+                        "y": 101.9
+                    },
+                    "uuid": "a0783014-a20a-42c8-9ee0-8be8b480c4b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX41",
+                    "pos": {
+                        "x": 314.0513,
+                        "y": 101.9
+                    },
+                    "uuid": "c4c41b74-69eb-4e0e-bee5-1633181855d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX42",
+                    "pos": {
+                        "x": 71.1638,
+                        "y": 120.95
+                    },
+                    "uuid": "e4f37680-4893-4063-83ca-89efb7a504ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX43",
+                    "pos": {
+                        "x": 102.12,
+                        "y": 120.95
+                    },
+                    "uuid": "df89bc39-4392-485d-a5d8-d7f969b58084"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX44",
+                    "pos": {
+                        "x": 121.17,
+                        "y": 120.95
+                    },
+                    "uuid": "29da28e9-290f-451f-a078-1456fff46e68"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX45",
+                    "pos": {
+                        "x": 140.22,
+                        "y": 120.95
+                    },
+                    "uuid": "7f320fdf-aff0-451b-9332-d834152fb6ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX46",
+                    "pos": {
+                        "x": 159.27,
+                        "y": 120.95
+                    },
+                    "uuid": "1d748553-f4ae-4cbd-8d7f-2fe5f72757b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX47",
+                    "pos": {
+                        "x": 178.32,
+                        "y": 120.95
+                    },
+                    "uuid": "fe833cdd-e699-4fc0-9090-2552c7310088"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX48",
+                    "pos": {
+                        "x": 197.37,
+                        "y": 120.95
+                    },
+                    "uuid": "b332cbe4-28c4-4695-a03f-8ca206d4be5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX49",
+                    "pos": {
+                        "x": 216.42,
+                        "y": 120.95
+                    },
+                    "uuid": "e2557fd1-1d2a-4810-a0f0-e012961a60ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX50",
+                    "pos": {
+                        "x": 235.47,
+                        "y": 120.95
+                    },
+                    "uuid": "a1609062-49f5-4388-9066-1596502ae668"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX51",
+                    "pos": {
+                        "x": 254.52,
+                        "y": 120.95
+                    },
+                    "uuid": "30592bd2-9265-4096-afa7-f42bb760d851"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX52",
+                    "pos": {
+                        "x": 273.57,
+                        "y": 120.95
+                    },
+                    "uuid": "9cb65108-ae82-4c07-848b-315a7cbe5221"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX53",
+                    "pos": {
+                        "x": 309.2888,
+                        "y": 120.95
+                    },
+                    "uuid": "47fda29e-d602-49e7-ba90-c5d7a78338d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX54",
+                    "pos": {
+                        "x": 61.6388,
+                        "y": 140.0
+                    },
+                    "uuid": "730e6cfc-001c-4771-b249-9b2c638f3334"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX55",
+                    "pos": {
+                        "x": 85.4513,
+                        "y": 140.0
+                    },
+                    "uuid": "7ae705dd-58c6-41e6-9d00-42352d901d8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX56",
+                    "pos": {
+                        "x": 109.2638,
+                        "y": 140.0
+                    },
+                    "uuid": "867ec9ed-44f9-4f33-9863-56de82bc674b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX57",
+                    "pos": {
+                        "x": 180.7013,
+                        "y": 140.0
+                    },
+                    "uuid": "57e4aeec-4dfa-42cb-a1b1-c7ec1ffd68d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX58",
+                    "pos": {
+                        "x": 252.1388,
+                        "y": 140.0
+                    },
+                    "uuid": "98c6c4c3-d410-42d7-aea6-630577cd5dce"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX59",
+                    "pos": {
+                        "x": 275.9513,
+                        "y": 140.0
+                    },
+                    "uuid": "6830d8d1-02d2-4133-ad99-10c872f0c8a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX60",
+                    "pos": {
+                        "x": 299.7638,
+                        "y": 140.0
+                    },
+                    "uuid": "0f667fec-39c6-41ff-afe5-6eaaca114eb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Push button switch, normally open, two pins, 45Â° tilted', Schematic: 'Push button switch, normally open, two pins, 45° tilted')",
+            "items": [
+                {
+                    "description": "Footprint MX61",
+                    "pos": {
+                        "x": 323.5763,
+                        "y": 140.0
+                    },
+                    "uuid": "8a90e9fa-8c69-4908-b168-5c8a530ecd44"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (U1) doesn't match symbol value (ProMicro)",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 82.94,
+                        "y": 38.725
+                    },
+                    "uuid": "102712e2-57e0-4d25-88fc-c2c021e204b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "pw13_controller:KB2040_numbered doesn't match footprint given by symbol (kb2040:kb2040)",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 82.94,
+                        "y": 38.725
+                    },
+                    "uuid": "102712e2-57e0-4d25-88fc-c2c021e204b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad net (GND) doesn't match net given by schematic (/COL8)",
+            "items": [
+                {
+                    "description": "PTH pad 21 [GND] of U1",
+                    "pos": {
+                        "x": 86.75,
+                        "y": 46.345
+                    },
+                    "uuid": "17e56133-03e2-4e0c-9c12-ff1de615f792"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/COL2) doesn't match net given by schematic (/COL7)",
+            "items": [
+                {
+                    "description": "PTH pad 22 [/COL2] of U1",
+                    "pos": {
+                        "x": 89.29,
+                        "y": 46.345
+                    },
+                    "uuid": "0878f8bd-c965-4e5e-beb0-82fa7b48c3eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (unconnected-(U1-RAW-Pad15)) doesn't match net given by schematic (/COL4)",
+            "items": [
+                {
+                    "description": "PTH pad 23 [unconnected-(U1-RAW-Pad15)] of U1",
+                    "pos": {
+                        "x": 91.83,
+                        "y": 46.345
+                    },
+                    "uuid": "748124f5-7139-4183-b9b4-418151497570"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (unconnected-(U1-D--Pad14)) doesn't match net given by schematic (/COL6)",
+            "items": [
+                {
+                    "description": "PTH pad 24 [unconnected-(U1-D--Pad14)] of U1",
+                    "pos": {
+                        "x": 94.37,
+                        "y": 46.345
+                    },
+                    "uuid": "b83276a8-e177-4947-81b7-7b9e22017a79"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/COL2) doesn't match net given by schematic (/COL5)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [/COL2] of U1",
+                    "pos": {
+                        "x": 96.91,
+                        "y": 46.345
+                    },
+                    "uuid": "5a664eca-4a84-4dad-9229-7e9a1c3f3b22"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/COL2) doesn't match net given by schematic (/COL3)",
+            "items": [
+                {
+                    "description": "PTH pad 26 [/COL2] of U1",
+                    "pos": {
+                        "x": 99.45,
+                        "y": 46.345
+                    },
+                    "uuid": "355e8c91-8988-48e5-b9ae-69cc63915d97"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (+3.3V) doesn't match net given by schematic (unconnected-(U4-VCC-Pad2))",
+            "items": [
+                {
+                    "description": "PTH pad 2 [+3.3V] of U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 39.01
+                    },
+                    "uuid": "b644122f-4171-4d09-9841-ee88d2827d21"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "pw67.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW1] of D14",
+                    "pos": {
+                        "x": 323.7125,
+                        "y": 67.8
+                    },
+                    "uuid": "2db24a85-6b5a-48fe-b0a4-37cf1fbd99a5"
+                },
+                {
+                    "description": "Footprint MX14",
+                    "pos": {
+                        "x": 316.4325,
+                        "y": 63.8
+                    },
+                    "uuid": "3f562e04-381a-49a5-b78f-9c4cde909e2a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D14-A)] of D14",
+                    "pos": {
+                        "x": 323.7125,
+                        "y": 60.18
+                    },
+                    "uuid": "dd7e82cb-740d-473a-b1e2-94abeffab6ab"
+                },
+                {
+                    "description": "Footprint MX14",
+                    "pos": {
+                        "x": 316.4325,
+                        "y": 63.8
+                    },
+                    "uuid": "3f562e04-381a-49a5-b78f-9c4cde909e2a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D9",
+                    "pos": {
+                        "x": 218.9375,
+                        "y": 67.8
+                    },
+                    "uuid": "be2d735b-5253-41cc-969e-afb2d180529b"
+                },
+                {
+                    "description": "Footprint MX9",
+                    "pos": {
+                        "x": 211.6575,
+                        "y": 63.8
+                    },
+                    "uuid": "0b220261-9c56-4550-8181-7c458f5aafa3"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D9-A)] of D9",
+                    "pos": {
+                        "x": 218.9375,
+                        "y": 60.18
+                    },
+                    "uuid": "a50812f6-4ad1-430e-9695-edc77d7818fc"
+                },
+                {
+                    "description": "Footprint MX9",
+                    "pos": {
+                        "x": 211.6575,
+                        "y": 63.8
+                    },
+                    "uuid": "0b220261-9c56-4550-8181-7c458f5aafa3"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D53",
+                    "pos": {
+                        "x": 316.5688,
+                        "y": 124.95
+                    },
+                    "uuid": "2ac0567b-09b3-4526-b6b3-6de17da55ccd"
+                },
+                {
+                    "description": "Footprint MX53",
+                    "pos": {
+                        "x": 309.2888,
+                        "y": 120.95
+                    },
+                    "uuid": "47fda29e-d602-49e7-ba90-c5d7a78338d6"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D53-A)] of D53",
+                    "pos": {
+                        "x": 316.5688,
+                        "y": 117.33
+                    },
+                    "uuid": "55d2e110-50a0-49a2-a196-c8c9247ece49"
+                },
+                {
+                    "description": "Footprint MX53",
+                    "pos": {
+                        "x": 309.2888,
+                        "y": 120.95
+                    },
+                    "uuid": "47fda29e-d602-49e7-ba90-c5d7a78338d6"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW1] of D10",
+                    "pos": {
+                        "x": 237.9875,
+                        "y": 68.8
+                    },
+                    "uuid": "c88baabe-2360-4053-99d5-b4381b044751"
+                },
+                {
+                    "description": "Footprint MX10",
+                    "pos": {
+                        "x": 230.7075,
+                        "y": 63.8
+                    },
+                    "uuid": "0d17d881-bb0f-4f19-9c27-c37de67f5229"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D10-A)] of D10",
+                    "pos": {
+                        "x": 237.9875,
+                        "y": 61.18
+                    },
+                    "uuid": "573538cb-b764-4727-b79e-f5cfb7b16eb2"
+                },
+                {
+                    "description": "Footprint MX10",
+                    "pos": {
+                        "x": 230.7075,
+                        "y": 63.8
+                    },
+                    "uuid": "0d17d881-bb0f-4f19-9c27-c37de67f5229"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW1] of D11",
+                    "pos": {
+                        "x": 257.0375,
+                        "y": 67.8
+                    },
+                    "uuid": "33f5696c-c0d3-4a3e-8e01-93b07ec4aa8b"
+                },
+                {
+                    "description": "Footprint MX11",
+                    "pos": {
+                        "x": 249.7575,
+                        "y": 63.8
+                    },
+                    "uuid": "dfbec886-383d-429c-ad0e-cff6794f9069"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D11-A)] of D11",
+                    "pos": {
+                        "x": 257.0375,
+                        "y": 60.18
+                    },
+                    "uuid": "123a3169-22f2-4c54-bccb-c633aaf89a51"
+                },
+                {
+                    "description": "Footprint MX11",
+                    "pos": {
+                        "x": 249.7575,
+                        "y": 63.8
+                    },
+                    "uuid": "dfbec886-383d-429c-ad0e-cff6794f9069"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW6] of D60",
+                    "pos": {
+                        "x": 307.0438,
+                        "y": 144.0
+                    },
+                    "uuid": "c68cf469-fb13-42fd-810b-6820c89152e7"
+                },
+                {
+                    "description": "Footprint MX60",
+                    "pos": {
+                        "x": 299.7638,
+                        "y": 140.0
+                    },
+                    "uuid": "0f667fec-39c6-41ff-afe5-6eaaca114eb2"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D60-A)] of D60",
+                    "pos": {
+                        "x": 307.0438,
+                        "y": 136.38
+                    },
+                    "uuid": "818ef901-e797-4922-a2ae-78b07a16e5cd"
+                },
+                {
+                    "description": "Footprint MX60",
+                    "pos": {
+                        "x": 299.7638,
+                        "y": 140.0
+                    },
+                    "uuid": "0f667fec-39c6-41ff-afe5-6eaaca114eb2"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [unconnected-(U1-D+-Pad1)] of U1",
+                    "pos": {
+                        "x": 68.97,
+                        "y": 31.105
+                    },
+                    "uuid": "1f2f2f35-4ddb-40eb-8ab2-e9b9b7dfb3ae"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/ROW0] of U1",
+                    "pos": {
+                        "x": 71.51,
+                        "y": 31.105
+                    },
+                    "uuid": "8fc4bdf5-9fb2-4800-a4aa-13a47b770921"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/ROW1] of U1",
+                    "pos": {
+                        "x": 74.05,
+                        "y": 31.105
+                    },
+                    "uuid": "982d788d-bf58-46fa-a0fe-f73c11688868"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 4 [GND] of U1",
+                    "pos": {
+                        "x": 76.59,
+                        "y": 31.105
+                    },
+                    "uuid": "badaac6e-ffe4-4991-b208-6aa877a60151"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 5 [GND] of U1",
+                    "pos": {
+                        "x": 79.13,
+                        "y": 31.105
+                    },
+                    "uuid": "d3b8dd64-e17b-4ce5-9029-7ec1929c1fae"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 6 [/ROW2] of U1",
+                    "pos": {
+                        "x": 81.67,
+                        "y": 31.105
+                    },
+                    "uuid": "78962472-daaf-4070-a608-98d153a56550"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 7 [/ROW3] of U1",
+                    "pos": {
+                        "x": 84.21,
+                        "y": 31.105
+                    },
+                    "uuid": "a91a3e39-6d86-45c2-b068-4bbc5a2d685f"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 8 [/ROW4] of U1",
+                    "pos": {
+                        "x": 86.75,
+                        "y": 31.105
+                    },
+                    "uuid": "06399975-6846-4ac3-b549-1adf89e94f6f"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 9 [/ROW5] of U1",
+                    "pos": {
+                        "x": 89.29,
+                        "y": 31.105
+                    },
+                    "uuid": "e9ec00fe-77f1-41a1-a91a-443c5980d3d8"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 10 [/ROW6] of U1",
+                    "pos": {
+                        "x": 91.83,
+                        "y": 31.105
+                    },
+                    "uuid": "535b0bd3-9d6f-40da-bb3a-45bc194050fb"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 11 [/COL0] of U1",
+                    "pos": {
+                        "x": 94.37,
+                        "y": 31.105
+                    },
+                    "uuid": "3672ae8b-1906-41d9-a9bc-178025eac593"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 12 [/COL1] of U1",
+                    "pos": {
+                        "x": 96.91,
+                        "y": 31.105
+                    },
+                    "uuid": "f02559e2-70d5-4c09-a78f-c041c6dd823e"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 13 [/COL2] of U1",
+                    "pos": {
+                        "x": 99.45,
+                        "y": 31.105
+                    },
+                    "uuid": "55631ef4-71be-4c13-a72b-020063b2002f"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 41.55
+                    },
+                    "uuid": "33eaa136-3244-4ef9-bf2d-1af3c3b9f17e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D51",
+                    "pos": {
+                        "x": 261.8,
+                        "y": 124.95
+                    },
+                    "uuid": "7ea6b12f-c3f5-4622-93f0-87615a79893d"
+                },
+                {
+                    "description": "Footprint MX51",
+                    "pos": {
+                        "x": 254.52,
+                        "y": 120.95
+                    },
+                    "uuid": "30592bd2-9265-4096-afa7-f42bb760d851"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D51-A)] of D51",
+                    "pos": {
+                        "x": 261.8,
+                        "y": 117.33
+                    },
+                    "uuid": "e78a8218-bacd-4b85-ae4b-937636079813"
+                },
+                {
+                    "description": "Footprint MX51",
+                    "pos": {
+                        "x": 254.52,
+                        "y": 120.95
+                    },
+                    "uuid": "30592bd2-9265-4096-afa7-f42bb760d851"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW4] of D45",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 124.95
+                    },
+                    "uuid": "18cd272a-a10c-4bd1-bc8a-4bd4fe2449b7"
+                },
+                {
+                    "description": "Footprint MX45",
+                    "pos": {
+                        "x": 140.22,
+                        "y": 120.95
+                    },
+                    "uuid": "7f320fdf-aff0-451b-9332-d834152fb6ed"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D45-A)] of D45",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 117.33
+                    },
+                    "uuid": "ba2afc4c-c4e9-4b08-ab67-df86c7ea8661"
+                },
+                {
+                    "description": "Footprint MX45",
+                    "pos": {
+                        "x": 140.22,
+                        "y": 120.95
+                    },
+                    "uuid": "7f320fdf-aff0-451b-9332-d834152fb6ed"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW3] of D28",
+                    "pos": {
+                        "x": 328.475,
+                        "y": 86.85
+                    },
+                    "uuid": "5de28ddc-b34a-4477-a3bc-ec384f388a4f"
+                },
+                {
+                    "description": "Footprint MX28",
+                    "pos": {
+                        "x": 321.195,
+                        "y": 82.85
+                    },
+                    "uuid": "bcb5bda1-0cf6-4aa9-91c5-68cafc7651fc"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D28-A)] of D28",
+                    "pos": {
+                        "x": 328.475,
+                        "y": 79.23
+                    },
+                    "uuid": "8b4014df-1158-44b7-83bc-18d89dc33e18"
+                },
+                {
+                    "description": "Footprint MX28",
+                    "pos": {
+                        "x": 321.195,
+                        "y": 82.85
+                    },
+                    "uuid": "bcb5bda1-0cf6-4aa9-91c5-68cafc7651fc"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D2",
+                    "pos": {
+                        "x": 81.3875,
+                        "y": 70.8
+                    },
+                    "uuid": "292d91bf-87b7-46b4-91de-17d9e7711b02"
+                },
+                {
+                    "description": "Footprint MX2",
+                    "pos": {
+                        "x": 78.3075,
+                        "y": 63.8
+                    },
+                    "uuid": "1940d2a9-3dc3-4792-bf65-b148e8b7efc4"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D2-A)] of D2",
+                    "pos": {
+                        "x": 81.3875,
+                        "y": 63.18
+                    },
+                    "uuid": "bab5d3b0-4980-4d8a-a961-07838083405c"
+                },
+                {
+                    "description": "Footprint MX2",
+                    "pos": {
+                        "x": 78.3075,
+                        "y": 63.8
+                    },
+                    "uuid": "1940d2a9-3dc3-4792-bf65-b148e8b7efc4"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of MX2",
+                    "pos": {
+                        "x": 78.3075,
+                        "y": 63.8
+                    },
+                    "uuid": "276f0455-1b60-47aa-adfb-009178dcd8a5"
+                },
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 81.3875,
+                        "y": 70.8
+                    },
+                    "uuid": "b52b2e40-ac36-4fb2-b705-e03d541d99a7"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of MX2",
+                    "pos": {
+                        "x": 83.3875,
+                        "y": 63.8
+                    },
+                    "uuid": "632fd7c4-7656-4824-bb5e-40ddd3981ed3"
+                },
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 81.3875,
+                        "y": 70.8
+                    },
+                    "uuid": "b52b2e40-ac36-4fb2-b705-e03d541d99a7"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW2] of D26",
+                    "pos": {
+                        "x": 285.6125,
+                        "y": 86.85
+                    },
+                    "uuid": "9592036c-b046-4577-87b6-b9ec62ca72aa"
+                },
+                {
+                    "description": "Footprint MX26",
+                    "pos": {
+                        "x": 278.3325,
+                        "y": 82.85
+                    },
+                    "uuid": "19afc24b-9f7d-4323-92a1-33475281848a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D26-A)] of D26",
+                    "pos": {
+                        "x": 285.6125,
+                        "y": 79.23
+                    },
+                    "uuid": "7057460a-6043-4d98-a109-ad8cf510673a"
+                },
+                {
+                    "description": "Footprint MX26",
+                    "pos": {
+                        "x": 278.3325,
+                        "y": 82.85
+                    },
+                    "uuid": "19afc24b-9f7d-4323-92a1-33475281848a"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D46",
+                    "pos": {
+                        "x": 166.55,
+                        "y": 124.95
+                    },
+                    "uuid": "0a973af1-0d97-4af3-86e3-7defd190d45f"
+                },
+                {
+                    "description": "Footprint MX46",
+                    "pos": {
+                        "x": 159.27,
+                        "y": 120.95
+                    },
+                    "uuid": "1d748553-f4ae-4cbd-8d7f-2fe5f72757b4"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D46-A)] of D46",
+                    "pos": {
+                        "x": 166.55,
+                        "y": 117.33
+                    },
+                    "uuid": "5d643923-6fea-48a2-9b51-8e91b3daf823"
+                },
+                {
+                    "description": "Footprint MX46",
+                    "pos": {
+                        "x": 159.27,
+                        "y": 120.95
+                    },
+                    "uuid": "1d748553-f4ae-4cbd-8d7f-2fe5f72757b4"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW1] of D13",
+                    "pos": {
+                        "x": 295.1375,
+                        "y": 67.8
+                    },
+                    "uuid": "ff28b0fb-966a-44a3-8193-7b61ab4387ce"
+                },
+                {
+                    "description": "Footprint MX13",
+                    "pos": {
+                        "x": 287.8575,
+                        "y": 63.8
+                    },
+                    "uuid": "1df163ad-ef63-4aa7-bd90-e51720f29482"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D13-A)] of D13",
+                    "pos": {
+                        "x": 295.1375,
+                        "y": 60.18
+                    },
+                    "uuid": "36cf4bbf-1c62-4cd2-ae85-084f66ae0e0d"
+                },
+                {
+                    "description": "Footprint MX13",
+                    "pos": {
+                        "x": 287.8575,
+                        "y": 63.8
+                    },
+                    "uuid": "1df163ad-ef63-4aa7-bd90-e51720f29482"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW2] of D20",
+                    "pos": {
+                        "x": 171.3125,
+                        "y": 87.85
+                    },
+                    "uuid": "77297252-17a3-4cf6-a4b6-2be67ac33c33"
+                },
+                {
+                    "description": "Footprint MX20",
+                    "pos": {
+                        "x": 164.0325,
+                        "y": 82.85
+                    },
+                    "uuid": "224cac0d-bd08-4d01-9761-a32453dd2b80"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D20-A)] of D20",
+                    "pos": {
+                        "x": 171.3125,
+                        "y": 80.23
+                    },
+                    "uuid": "405e6b86-ed3e-480d-add1-11a222fbc6d4"
+                },
+                {
+                    "description": "Footprint MX20",
+                    "pos": {
+                        "x": 164.0325,
+                        "y": 82.85
+                    },
+                    "uuid": "224cac0d-bd08-4d01-9761-a32453dd2b80"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW2] of D24",
+                    "pos": {
+                        "x": 247.5125,
+                        "y": 86.85
+                    },
+                    "uuid": "8846fcdc-e266-47e1-82ba-441fd9d50ec9"
+                },
+                {
+                    "description": "Footprint MX24",
+                    "pos": {
+                        "x": 240.2325,
+                        "y": 82.85
+                    },
+                    "uuid": "37013b3d-7bf0-417e-b496-071b11f0b7c8"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D24-A)] of D24",
+                    "pos": {
+                        "x": 247.5125,
+                        "y": 79.23
+                    },
+                    "uuid": "1c8149a5-231f-42c3-8ae9-aa1da1c3212b"
+                },
+                {
+                    "description": "Footprint MX24",
+                    "pos": {
+                        "x": 240.2325,
+                        "y": 82.85
+                    },
+                    "uuid": "37013b3d-7bf0-417e-b496-071b11f0b7c8"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D3",
+                    "pos": {
+                        "x": 104.6375,
+                        "y": 67.8
+                    },
+                    "uuid": "eda91c8c-ad4c-433b-9f38-34003cea61d1"
+                },
+                {
+                    "description": "Footprint MX3",
+                    "pos": {
+                        "x": 97.3575,
+                        "y": 63.8
+                    },
+                    "uuid": "820f2f23-c764-4dd5-89bf-e5f3e1895255"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D3-A)] of D3",
+                    "pos": {
+                        "x": 104.6375,
+                        "y": 60.18
+                    },
+                    "uuid": "160cdf3a-d8bc-4031-82cc-12288a993fb5"
+                },
+                {
+                    "description": "Footprint MX3",
+                    "pos": {
+                        "x": 97.3575,
+                        "y": 63.8
+                    },
+                    "uuid": "820f2f23-c764-4dd5-89bf-e5f3e1895255"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D47",
+                    "pos": {
+                        "x": 185.6,
+                        "y": 122.95
+                    },
+                    "uuid": "1229baa1-6147-4b1f-8a23-eaf84e4dd52b"
+                },
+                {
+                    "description": "Footprint MX47",
+                    "pos": {
+                        "x": 178.32,
+                        "y": 120.95
+                    },
+                    "uuid": "fe833cdd-e699-4fc0-9090-2552c7310088"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D47-A)] of D47",
+                    "pos": {
+                        "x": 185.6,
+                        "y": 115.33
+                    },
+                    "uuid": "89b1ceda-9209-4568-843a-78a224ae9355"
+                },
+                {
+                    "description": "Footprint MX47",
+                    "pos": {
+                        "x": 178.32,
+                        "y": 120.95
+                    },
+                    "uuid": "fe833cdd-e699-4fc0-9090-2552c7310088"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D5",
+                    "pos": {
+                        "x": 142.7375,
+                        "y": 67.8
+                    },
+                    "uuid": "aa00a295-db4f-422c-b76d-a883d752fb8a"
+                },
+                {
+                    "description": "Footprint MX5",
+                    "pos": {
+                        "x": 135.4575,
+                        "y": 63.8
+                    },
+                    "uuid": "40e715da-ffd9-4095-83a8-e7357332dc9d"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D5-A)] of D5",
+                    "pos": {
+                        "x": 142.7375,
+                        "y": 60.18
+                    },
+                    "uuid": "ff4058ce-8294-41a8-89d5-659880007c10"
+                },
+                {
+                    "description": "Footprint MX5",
+                    "pos": {
+                        "x": 135.4575,
+                        "y": 63.8
+                    },
+                    "uuid": "40e715da-ffd9-4095-83a8-e7357332dc9d"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW1] of D17",
+                    "pos": {
+                        "x": 114.1625,
+                        "y": 87.85
+                    },
+                    "uuid": "53084c5b-e412-41c2-89c1-3d825f2a1e04"
+                },
+                {
+                    "description": "Footprint MX17",
+                    "pos": {
+                        "x": 106.8825,
+                        "y": 82.85
+                    },
+                    "uuid": "4299e387-b6aa-4a83-911f-0f7b155268c5"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D17-A)] of D17",
+                    "pos": {
+                        "x": 114.1625,
+                        "y": 80.23
+                    },
+                    "uuid": "d4f66668-f4f9-4f25-a799-cbff94f79a31"
+                },
+                {
+                    "description": "Footprint MX17",
+                    "pos": {
+                        "x": 106.8825,
+                        "y": 82.85
+                    },
+                    "uuid": "4299e387-b6aa-4a83-911f-0f7b155268c5"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D48",
+                    "pos": {
+                        "x": 204.65,
+                        "y": 124.95
+                    },
+                    "uuid": "e0970b48-0203-4799-9550-6ac79e576773"
+                },
+                {
+                    "description": "Footprint MX48",
+                    "pos": {
+                        "x": 197.37,
+                        "y": 120.95
+                    },
+                    "uuid": "b332cbe4-28c4-4695-a03f-8ca206d4be5b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D48-A)] of D48",
+                    "pos": {
+                        "x": 204.65,
+                        "y": 117.33
+                    },
+                    "uuid": "de05a2b2-503c-4097-a9f6-9748124a3fd7"
+                },
+                {
+                    "description": "Footprint MX48",
+                    "pos": {
+                        "x": 197.37,
+                        "y": 120.95
+                    },
+                    "uuid": "b332cbe4-28c4-4695-a03f-8ca206d4be5b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW6] of D56",
+                    "pos": {
+                        "x": 116.5438,
+                        "y": 144.0
+                    },
+                    "uuid": "e4cf4960-f64f-45a8-b68d-f170b4ede666"
+                },
+                {
+                    "description": "Footprint MX56",
+                    "pos": {
+                        "x": 109.2638,
+                        "y": 140.0
+                    },
+                    "uuid": "867ec9ed-44f9-4f33-9863-56de82bc674b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D56-A)] of D56",
+                    "pos": {
+                        "x": 116.5438,
+                        "y": 136.38
+                    },
+                    "uuid": "592c28bc-ce7e-473e-a8ac-48a5a92ea985"
+                },
+                {
+                    "description": "Footprint MX56",
+                    "pos": {
+                        "x": 109.2638,
+                        "y": 140.0
+                    },
+                    "uuid": "867ec9ed-44f9-4f33-9863-56de82bc674b"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D8",
+                    "pos": {
+                        "x": 199.8875,
+                        "y": 65.8
+                    },
+                    "uuid": "35e218e3-de4f-49ff-8a7e-2212744f6bf6"
+                },
+                {
+                    "description": "Footprint MX8",
+                    "pos": {
+                        "x": 192.6075,
+                        "y": 63.8
+                    },
+                    "uuid": "6a5d7432-5b3f-421b-b1b2-3af5db4e5a36"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D8-A)] of D8",
+                    "pos": {
+                        "x": 199.8875,
+                        "y": 58.18
+                    },
+                    "uuid": "be0a3b20-51c5-42d5-a643-4650fae41e78"
+                },
+                {
+                    "description": "Footprint MX8",
+                    "pos": {
+                        "x": 192.6075,
+                        "y": 63.8
+                    },
+                    "uuid": "6a5d7432-5b3f-421b-b1b2-3af5db4e5a36"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D4",
+                    "pos": {
+                        "x": 123.6875,
+                        "y": 67.8
+                    },
+                    "uuid": "d7bae75e-9fd5-4417-a8e2-bd8a3e33fe53"
+                },
+                {
+                    "description": "Footprint MX4",
+                    "pos": {
+                        "x": 116.4075,
+                        "y": 63.8
+                    },
+                    "uuid": "4a80ae40-78b1-40bd-a09e-ba3b9cc395e6"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D4-A)] of D4",
+                    "pos": {
+                        "x": 123.6875,
+                        "y": 60.18
+                    },
+                    "uuid": "dcad9ff3-2288-493e-8a2b-34857f5d4726"
+                },
+                {
+                    "description": "Footprint MX4",
+                    "pos": {
+                        "x": 116.4075,
+                        "y": 63.8
+                    },
+                    "uuid": "4a80ae40-78b1-40bd-a09e-ba3b9cc395e6"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW4] of D40",
+                    "pos": {
+                        "x": 290.375,
+                        "y": 107.9
+                    },
+                    "uuid": "6ce6d759-e88d-4c67-94b0-67d41814124d"
+                },
+                {
+                    "description": "Footprint MX40",
+                    "pos": {
+                        "x": 283.095,
+                        "y": 101.9
+                    },
+                    "uuid": "a0783014-a20a-42c8-9ee0-8be8b480c4b8"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D40-A)] of D40",
+                    "pos": {
+                        "x": 290.375,
+                        "y": 100.28
+                    },
+                    "uuid": "e2796640-fbc5-4860-85ca-400e55299555"
+                },
+                {
+                    "description": "Footprint MX40",
+                    "pos": {
+                        "x": 283.095,
+                        "y": 101.9
+                    },
+                    "uuid": "a0783014-a20a-42c8-9ee0-8be8b480c4b8"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW6] of D57",
+                    "pos": {
+                        "x": 187.9813,
+                        "y": 144.0
+                    },
+                    "uuid": "82a764b3-cd1d-4753-996c-98d1bdb6e7c0"
+                },
+                {
+                    "description": "Footprint MX57",
+                    "pos": {
+                        "x": 180.7013,
+                        "y": 140.0
+                    },
+                    "uuid": "57e4aeec-4dfa-42cb-a1b1-c7ec1ffd68d4"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D57-A)] of D57",
+                    "pos": {
+                        "x": 187.9813,
+                        "y": 136.38
+                    },
+                    "uuid": "b3faa848-34c3-49e4-af16-77565b016c74"
+                },
+                {
+                    "description": "Footprint MX57",
+                    "pos": {
+                        "x": 180.7013,
+                        "y": 140.0
+                    },
+                    "uuid": "57e4aeec-4dfa-42cb-a1b1-c7ec1ffd68d4"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW6] of D58",
+                    "pos": {
+                        "x": 259.4188,
+                        "y": 144.0
+                    },
+                    "uuid": "825bf4b7-1105-4a3a-aec5-92238ee4f5c9"
+                },
+                {
+                    "description": "Footprint MX58",
+                    "pos": {
+                        "x": 252.1388,
+                        "y": 140.0
+                    },
+                    "uuid": "98c6c4c3-d410-42d7-aea6-630577cd5dce"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D58-A)] of D58",
+                    "pos": {
+                        "x": 259.4188,
+                        "y": 136.38
+                    },
+                    "uuid": "fc009dd9-278a-4851-9ac7-1223c32d29ad"
+                },
+                {
+                    "description": "Footprint MX58",
+                    "pos": {
+                        "x": 252.1388,
+                        "y": 140.0
+                    },
+                    "uuid": "98c6c4c3-d410-42d7-aea6-630577cd5dce"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW2] of D22",
+                    "pos": {
+                        "x": 209.4125,
+                        "y": 86.85
+                    },
+                    "uuid": "bfe84a96-4b7d-4ce6-b9de-4a674f2a8c74"
+                },
+                {
+                    "description": "Footprint MX22",
+                    "pos": {
+                        "x": 202.1325,
+                        "y": 82.85
+                    },
+                    "uuid": "5e1d331a-4e71-48c3-b937-2f952fa437f2"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D22-A)] of D22",
+                    "pos": {
+                        "x": 209.4125,
+                        "y": 79.23
+                    },
+                    "uuid": "db585ce3-80c4-4b3f-9d98-6e50ae342043"
+                },
+                {
+                    "description": "Footprint MX22",
+                    "pos": {
+                        "x": 202.1325,
+                        "y": 82.85
+                    },
+                    "uuid": "5e1d331a-4e71-48c3-b937-2f952fa437f2"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW4] of D43",
+                    "pos": {
+                        "x": 109.4,
+                        "y": 124.95
+                    },
+                    "uuid": "3eb9f8d1-044c-4b7a-bfc4-b71dcae1cbb1"
+                },
+                {
+                    "description": "Footprint MX43",
+                    "pos": {
+                        "x": 102.12,
+                        "y": 120.95
+                    },
+                    "uuid": "df89bc39-4392-485d-a5d8-d7f969b58084"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D43-A)] of D43",
+                    "pos": {
+                        "x": 109.4,
+                        "y": 117.33
+                    },
+                    "uuid": "9d6a40c5-1d4a-45a3-953b-eeb56f538c93"
+                },
+                {
+                    "description": "Footprint MX43",
+                    "pos": {
+                        "x": 102.12,
+                        "y": 120.95
+                    },
+                    "uuid": "df89bc39-4392-485d-a5d8-d7f969b58084"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW4] of D38",
+                    "pos": {
+                        "x": 252.275,
+                        "y": 105.9
+                    },
+                    "uuid": "9935d4ad-7de9-49c5-bde7-b9fb3b0881bb"
+                },
+                {
+                    "description": "Footprint MX38",
+                    "pos": {
+                        "x": 244.995,
+                        "y": 101.9
+                    },
+                    "uuid": "6136abc3-c1a3-4cbc-b701-f6ee29566df5"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D38-A)] of D38",
+                    "pos": {
+                        "x": 252.275,
+                        "y": 98.28
+                    },
+                    "uuid": "c7da39ba-6185-4bba-b3d8-b784fced7cea"
+                },
+                {
+                    "description": "Footprint MX38",
+                    "pos": {
+                        "x": 244.995,
+                        "y": 101.9
+                    },
+                    "uuid": "6136abc3-c1a3-4cbc-b701-f6ee29566df5"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW3] of D36",
+                    "pos": {
+                        "x": 214.175,
+                        "y": 103.9
+                    },
+                    "uuid": "607d5229-ff07-405f-93f1-4a6cd421240f"
+                },
+                {
+                    "description": "Footprint MX36",
+                    "pos": {
+                        "x": 206.895,
+                        "y": 101.9
+                    },
+                    "uuid": "617be554-950b-4d5d-9521-bc9b068cb17c"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D36-A)] of D36",
+                    "pos": {
+                        "x": 214.175,
+                        "y": 96.28
+                    },
+                    "uuid": "3e555e02-950a-4599-8cda-9ee29e27785c"
+                },
+                {
+                    "description": "Footprint MX36",
+                    "pos": {
+                        "x": 206.895,
+                        "y": 101.9
+                    },
+                    "uuid": "617be554-950b-4d5d-9521-bc9b068cb17c"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW6] of D59",
+                    "pos": {
+                        "x": 283.2313,
+                        "y": 144.0
+                    },
+                    "uuid": "53af3739-a6f5-443d-97ac-6ec83aba0bd6"
+                },
+                {
+                    "description": "Footprint MX59",
+                    "pos": {
+                        "x": 275.9513,
+                        "y": 140.0
+                    },
+                    "uuid": "6830d8d1-02d2-4133-ad99-10c872f0c8a5"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D59-A)] of D59",
+                    "pos": {
+                        "x": 283.2313,
+                        "y": 136.38
+                    },
+                    "uuid": "ad31ccf9-ae7f-4aea-9920-3bd4f792299a"
+                },
+                {
+                    "description": "Footprint MX59",
+                    "pos": {
+                        "x": 275.9513,
+                        "y": 140.0
+                    },
+                    "uuid": "6830d8d1-02d2-4133-ad99-10c872f0c8a5"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW3] of D34",
+                    "pos": {
+                        "x": 176.075,
+                        "y": 105.9
+                    },
+                    "uuid": "c9107c1f-aede-4621-9d80-2b97125a0679"
+                },
+                {
+                    "description": "Footprint MX34",
+                    "pos": {
+                        "x": 168.795,
+                        "y": 101.9
+                    },
+                    "uuid": "fd218347-0476-40ab-9ae3-eaccedbb759e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D34-A)] of D34",
+                    "pos": {
+                        "x": 176.075,
+                        "y": 98.28
+                    },
+                    "uuid": "010999dc-0310-4fed-bedb-b34118a36ff1"
+                },
+                {
+                    "description": "Footprint MX34",
+                    "pos": {
+                        "x": 168.795,
+                        "y": 101.9
+                    },
+                    "uuid": "fd218347-0476-40ab-9ae3-eaccedbb759e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW4] of D37",
+                    "pos": {
+                        "x": 233.225,
+                        "y": 105.9
+                    },
+                    "uuid": "53b00754-09d6-460f-8256-dd926fc5bbcb"
+                },
+                {
+                    "description": "Footprint MX37",
+                    "pos": {
+                        "x": 225.945,
+                        "y": 101.9
+                    },
+                    "uuid": "6d71e44e-cb4f-4034-9404-472f86d492b0"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D37-A)] of D37",
+                    "pos": {
+                        "x": 233.225,
+                        "y": 98.28
+                    },
+                    "uuid": "9b5871b0-eeb1-40b3-aa5d-dffda238d681"
+                },
+                {
+                    "description": "Footprint MX37",
+                    "pos": {
+                        "x": 225.945,
+                        "y": 101.9
+                    },
+                    "uuid": "6d71e44e-cb4f-4034-9404-472f86d492b0"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D54",
+                    "pos": {
+                        "x": 68.9188,
+                        "y": 143.0
+                    },
+                    "uuid": "0159b8b0-5922-452c-8613-e80758375bc2"
+                },
+                {
+                    "description": "Footprint MX54",
+                    "pos": {
+                        "x": 61.6388,
+                        "y": 140.0
+                    },
+                    "uuid": "730e6cfc-001c-4771-b249-9b2c638f3334"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D54-A)] of D54",
+                    "pos": {
+                        "x": 68.9188,
+                        "y": 135.38
+                    },
+                    "uuid": "d6e94e66-4e15-4286-9879-360a09ac649d"
+                },
+                {
+                    "description": "Footprint MX54",
+                    "pos": {
+                        "x": 61.6388,
+                        "y": 140.0
+                    },
+                    "uuid": "730e6cfc-001c-4771-b249-9b2c638f3334"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D50",
+                    "pos": {
+                        "x": 242.75,
+                        "y": 124.95
+                    },
+                    "uuid": "45c09a4f-c55e-4e4f-8c9c-909aad3e4705"
+                },
+                {
+                    "description": "Footprint MX50",
+                    "pos": {
+                        "x": 235.47,
+                        "y": 120.95
+                    },
+                    "uuid": "a1609062-49f5-4388-9066-1596502ae668"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D50-A)] of D50",
+                    "pos": {
+                        "x": 242.75,
+                        "y": 117.33
+                    },
+                    "uuid": "0759add7-bf5e-4e9b-80ab-767bd1f65a21"
+                },
+                {
+                    "description": "Footprint MX50",
+                    "pos": {
+                        "x": 235.47,
+                        "y": 120.95
+                    },
+                    "uuid": "a1609062-49f5-4388-9066-1596502ae668"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D49",
+                    "pos": {
+                        "x": 223.7,
+                        "y": 124.95
+                    },
+                    "uuid": "0a207ea0-9184-4adb-ae6b-daf70c945033"
+                },
+                {
+                    "description": "Footprint MX49",
+                    "pos": {
+                        "x": 216.42,
+                        "y": 120.95
+                    },
+                    "uuid": "e2557fd1-1d2a-4810-a0f0-e012961a60ec"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D49-A)] of D49",
+                    "pos": {
+                        "x": 223.7,
+                        "y": 117.33
+                    },
+                    "uuid": "cc750808-0ebc-46d8-90fe-9a54cd9a98f7"
+                },
+                {
+                    "description": "Footprint MX49",
+                    "pos": {
+                        "x": 216.42,
+                        "y": 120.95
+                    },
+                    "uuid": "e2557fd1-1d2a-4810-a0f0-e012961a60ec"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW1] of D12",
+                    "pos": {
+                        "x": 276.0875,
+                        "y": 65.8
+                    },
+                    "uuid": "0960a44e-4e32-4d0a-b109-fb0712bfcc8d"
+                },
+                {
+                    "description": "Footprint MX12",
+                    "pos": {
+                        "x": 268.8075,
+                        "y": 63.8
+                    },
+                    "uuid": "7df6119e-2df0-4711-a85b-0988427e4e4c"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D12-A)] of D12",
+                    "pos": {
+                        "x": 276.0875,
+                        "y": 58.18
+                    },
+                    "uuid": "8d12a860-c740-4705-b9c7-1c538c5c5c30"
+                },
+                {
+                    "description": "Footprint MX12",
+                    "pos": {
+                        "x": 268.8075,
+                        "y": 63.8
+                    },
+                    "uuid": "7df6119e-2df0-4711-a85b-0988427e4e4c"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW6] of D61",
+                    "pos": {
+                        "x": 330.8563,
+                        "y": 144.0
+                    },
+                    "uuid": "16dd82b9-3464-46ae-a42e-51646ba969d5"
+                },
+                {
+                    "description": "Footprint MX61",
+                    "pos": {
+                        "x": 323.5763,
+                        "y": 140.0
+                    },
+                    "uuid": "8a90e9fa-8c69-4908-b168-5c8a530ecd44"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D61-A)] of D61",
+                    "pos": {
+                        "x": 330.8563,
+                        "y": 136.38
+                    },
+                    "uuid": "4187fee0-6dca-4d0e-8cab-4659e9cd41fa"
+                },
+                {
+                    "description": "Footprint MX61",
+                    "pos": {
+                        "x": 323.5763,
+                        "y": 140.0
+                    },
+                    "uuid": "8a90e9fa-8c69-4908-b168-5c8a530ecd44"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW3] of D31",
+                    "pos": {
+                        "x": 118.925,
+                        "y": 105.9
+                    },
+                    "uuid": "29fc3d9f-a9fc-497d-a2dd-333788d33144"
+                },
+                {
+                    "description": "Footprint MX31",
+                    "pos": {
+                        "x": 111.645,
+                        "y": 101.9
+                    },
+                    "uuid": "b3f0d6f3-eb63-46c1-b45f-c5f6a6e1ecb2"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D31-A)] of D31",
+                    "pos": {
+                        "x": 118.925,
+                        "y": 98.28
+                    },
+                    "uuid": "d93bbeed-1bc8-4a2a-bb63-b0fd8899c4d3"
+                },
+                {
+                    "description": "Footprint MX31",
+                    "pos": {
+                        "x": 111.645,
+                        "y": 101.9
+                    },
+                    "uuid": "b3f0d6f3-eb63-46c1-b45f-c5f6a6e1ecb2"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D7",
+                    "pos": {
+                        "x": 180.8375,
+                        "y": 67.8
+                    },
+                    "uuid": "03391ece-461a-471d-ab22-3c583d248a52"
+                },
+                {
+                    "description": "Footprint MX7",
+                    "pos": {
+                        "x": 173.5575,
+                        "y": 63.8
+                    },
+                    "uuid": "8c36d7fc-0949-465b-8df4-503c43a24dc0"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D7-A)] of D7",
+                    "pos": {
+                        "x": 180.8375,
+                        "y": 60.18
+                    },
+                    "uuid": "a78dd88b-9000-4c4c-a052-fa5293382992"
+                },
+                {
+                    "description": "Footprint MX7",
+                    "pos": {
+                        "x": 173.5575,
+                        "y": 63.8
+                    },
+                    "uuid": "8c36d7fc-0949-465b-8df4-503c43a24dc0"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D6",
+                    "pos": {
+                        "x": 161.7875,
+                        "y": 67.8
+                    },
+                    "uuid": "ac1145ab-5fc4-461b-a036-cb51ae0d02fb"
+                },
+                {
+                    "description": "Footprint MX6",
+                    "pos": {
+                        "x": 154.5075,
+                        "y": 63.8
+                    },
+                    "uuid": "f6d4e258-604d-4cef-b5d2-39d639577d3d"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D6-A)] of D6",
+                    "pos": {
+                        "x": 161.7875,
+                        "y": 60.18
+                    },
+                    "uuid": "0e2ad179-0136-41a6-9ed6-c25a5f7069f3"
+                },
+                {
+                    "description": "Footprint MX6",
+                    "pos": {
+                        "x": 154.5075,
+                        "y": 63.8
+                    },
+                    "uuid": "f6d4e258-604d-4cef-b5d2-39d639577d3d"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW0] of D1",
+                    "pos": {
+                        "x": 62.3375,
+                        "y": 70.8
+                    },
+                    "uuid": "5bd8dc3a-4a3f-46d6-a708-d62cf63274f5"
+                },
+                {
+                    "description": "Footprint MX1",
+                    "pos": {
+                        "x": 59.2575,
+                        "y": 63.8
+                    },
+                    "uuid": "982b5c6f-e889-440d-9d32-3c73cac4578e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D1-A)] of D1",
+                    "pos": {
+                        "x": 62.3375,
+                        "y": 63.18
+                    },
+                    "uuid": "765c4782-c295-47b0-a0f0-9abc54d90ed2"
+                },
+                {
+                    "description": "Footprint MX1",
+                    "pos": {
+                        "x": 59.2575,
+                        "y": 63.8
+                    },
+                    "uuid": "982b5c6f-e889-440d-9d32-3c73cac4578e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of MX1",
+                    "pos": {
+                        "x": 59.2575,
+                        "y": 63.8
+                    },
+                    "uuid": "42077fd6-7d1d-4a62-9df2-b57413f92466"
+                },
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 62.3375,
+                        "y": 70.8
+                    },
+                    "uuid": "f37e0234-f52a-4c28-907e-6ead5de25a88"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of MX1",
+                    "pos": {
+                        "x": 64.3375,
+                        "y": 63.8
+                    },
+                    "uuid": "9375e301-670d-48d8-9849-16e0dbc891b8"
+                },
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 62.3375,
+                        "y": 70.8
+                    },
+                    "uuid": "f37e0234-f52a-4c28-907e-6ead5de25a88"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW5] of D52",
+                    "pos": {
+                        "x": 280.85,
+                        "y": 124.95
+                    },
+                    "uuid": "ce2bcdb4-edf7-4ec6-b235-b1ff1e350f4d"
+                },
+                {
+                    "description": "Footprint MX52",
+                    "pos": {
+                        "x": 273.57,
+                        "y": 120.95
+                    },
+                    "uuid": "9cb65108-ae82-4c07-848b-315a7cbe5221"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D52-A)] of D52",
+                    "pos": {
+                        "x": 280.85,
+                        "y": 117.33
+                    },
+                    "uuid": "70afcc07-1493-4574-880e-52ba272e0ee4"
+                },
+                {
+                    "description": "Footprint MX52",
+                    "pos": {
+                        "x": 273.57,
+                        "y": 120.95
+                    },
+                    "uuid": "9cb65108-ae82-4c07-848b-315a7cbe5221"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW3] of D32",
+                    "pos": {
+                        "x": 137.975,
+                        "y": 105.9
+                    },
+                    "uuid": "703aa4ba-575d-40bf-b39c-dde563afbf26"
+                },
+                {
+                    "description": "Footprint MX32",
+                    "pos": {
+                        "x": 130.695,
+                        "y": 101.9
+                    },
+                    "uuid": "ddd2dc5c-c282-4807-931e-4c731891fe67"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D32-A)] of D32",
+                    "pos": {
+                        "x": 137.975,
+                        "y": 98.28
+                    },
+                    "uuid": "f6f17c5c-a535-41a1-85ab-1bb7a216d4d1"
+                },
+                {
+                    "description": "Footprint MX32",
+                    "pos": {
+                        "x": 130.695,
+                        "y": 101.9
+                    },
+                    "uuid": "ddd2dc5c-c282-4807-931e-4c731891fe67"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW3] of D29",
+                    "pos": {
+                        "x": 73.6813,
+                        "y": 105.9
+                    },
+                    "uuid": "ec86593f-c1cf-4e36-83ef-16ea1a8e777e"
+                },
+                {
+                    "description": "Footprint MX29",
+                    "pos": {
+                        "x": 66.4013,
+                        "y": 101.9
+                    },
+                    "uuid": "e60c1bc6-210e-43a9-bc24-8fc39bd7a383"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D29-A)] of D29",
+                    "pos": {
+                        "x": 73.6813,
+                        "y": 98.28
+                    },
+                    "uuid": "e56c5fb1-0596-43ea-ab77-917cf1316a9c"
+                },
+                {
+                    "description": "Footprint MX29",
+                    "pos": {
+                        "x": 66.4013,
+                        "y": 101.9
+                    },
+                    "uuid": "e60c1bc6-210e-43a9-bc24-8fc39bd7a383"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW4] of D39",
+                    "pos": {
+                        "x": 271.325,
+                        "y": 105.9
+                    },
+                    "uuid": "84d63031-9cd6-4015-ba04-254f6e2e5b5a"
+                },
+                {
+                    "description": "Footprint MX39",
+                    "pos": {
+                        "x": 264.045,
+                        "y": 101.9
+                    },
+                    "uuid": "b975b899-9fcc-4f19-b5b6-647f83e798f4"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D39-A)] of D39",
+                    "pos": {
+                        "x": 271.325,
+                        "y": 98.28
+                    },
+                    "uuid": "ee539214-9c05-4196-a8bb-aa2b670e7a13"
+                },
+                {
+                    "description": "Footprint MX39",
+                    "pos": {
+                        "x": 264.045,
+                        "y": 101.9
+                    },
+                    "uuid": "b975b899-9fcc-4f19-b5b6-647f83e798f4"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW2] of D27",
+                    "pos": {
+                        "x": 304.6625,
+                        "y": 86.85
+                    },
+                    "uuid": "0260a3f5-670a-4f33-92b4-f62877c834b4"
+                },
+                {
+                    "description": "Footprint MX27",
+                    "pos": {
+                        "x": 297.3825,
+                        "y": 82.85
+                    },
+                    "uuid": "f03e2dec-a1e1-4125-a72a-883fa7b57304"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D27-A)] of D27",
+                    "pos": {
+                        "x": 304.6625,
+                        "y": 79.23
+                    },
+                    "uuid": "5a0f0ad5-c557-454f-9ef7-2f62c5718469"
+                },
+                {
+                    "description": "Footprint MX27",
+                    "pos": {
+                        "x": 297.3825,
+                        "y": 82.85
+                    },
+                    "uuid": "f03e2dec-a1e1-4125-a72a-883fa7b57304"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW4] of D41",
+                    "pos": {
+                        "x": 321.3313,
+                        "y": 105.9
+                    },
+                    "uuid": "5e75bf44-aa12-4851-9fb6-c50022d33442"
+                },
+                {
+                    "description": "Footprint MX41",
+                    "pos": {
+                        "x": 314.0513,
+                        "y": 101.9
+                    },
+                    "uuid": "c4c41b74-69eb-4e0e-bee5-1633181855d9"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D41-A)] of D41",
+                    "pos": {
+                        "x": 321.3313,
+                        "y": 98.28
+                    },
+                    "uuid": "7fe28adf-379b-4577-9121-820af938839e"
+                },
+                {
+                    "description": "Footprint MX41",
+                    "pos": {
+                        "x": 314.0513,
+                        "y": 101.9
+                    },
+                    "uuid": "c4c41b74-69eb-4e0e-bee5-1633181855d9"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of MX30",
+                    "pos": {
+                        "x": 92.595,
+                        "y": 101.9
+                    },
+                    "uuid": "d01cbe83-a7c1-4b34-9d69-c3c1e845ea59"
+                },
+                {
+                    "description": "Footprint D30",
+                    "pos": {
+                        "x": 95.675,
+                        "y": 108.9
+                    },
+                    "uuid": "d6f3554b-59f0-4982-a38d-1e553e9b82bc"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "items": [
+                {
+                    "description": "NPTH pad of MX30",
+                    "pos": {
+                        "x": 97.675,
+                        "y": 101.9
+                    },
+                    "uuid": "3006135e-2193-4d84-9768-7fbd1ca2afdb"
+                },
+                {
+                    "description": "Footprint D30",
+                    "pos": {
+                        "x": 95.675,
+                        "y": 108.9
+                    },
+                    "uuid": "d6f3554b-59f0-4982-a38d-1e553e9b82bc"
+                }
+            ],
+            "severity": "error",
+            "type": "npth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ROW3] of D30",
+                    "pos": {
+                        "x": 95.675,
+                        "y": 108.9
+                    },
+                    "uuid": "fc6ae053-27af-450b-b60b-eaed0d197e7e"
+                },
+                {
+                    "description": "Footprint MX30",
+                    "pos": {
+                        "x": 92.595,
+                        "y": 101.9
+                    },
+                    "uuid": "ede09bf5-1679-4ec6-953c-17d5fc5ec385"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(D30-A)] of D30",
+                    "pos": {
+                        "x": 95.675,
+                        "y": 101.28
+                    },
+                    "uuid": "48fdcd79-0268-4f0a-806a-99906047fb5a"
+                },
+                {
+                    "description": "Footprint MX30",
+                    "pos": {
+                        "x": 92.595,
+                        "y": 101.9
+                    },
+                    "uuid": "ede09bf5-1679-4ec6-953c-17d5fc5ec385"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/COL0] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 94.6457,
+                        "y": 32.5207
+                    },
+                    "uuid": "99a564fc-7112-4341-a629-45f7a3e4bec6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/COL5] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 151.015,
+                        "y": 74.4397
+                    },
+                    "uuid": "c05111fc-8c81-4423-85e3-ee037c6d616e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/COL3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 113.076,
+                        "y": 72.4825
+                    },
+                    "uuid": "708edae0-d43a-405d-b4da-61dc4dbb4032"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/COL4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 126.899,
+                        "y": 72.4825
+                    },
+                    "uuid": "2693e577-a4e0-4de7-9388-750c8ccf239a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/COL4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 254.212,
+                        "y": 131.068
+                    },
+                    "uuid": "73238698-ab16-4846-889e-1434a56458ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/ROW4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 78.0722,
+                        "y": 123.122
+                    },
+                    "uuid": "d8cd65ec-bd26-432b-8f16-8f55ef63a8f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/ROW2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 81.925,
+                        "y": 37.225
+                    },
+                    "uuid": "e44ffae8-8409-48ec-a0dc-38184991f498"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 340.45,
+                        "y": 49.3
+                    },
+                    "uuid": "669100f8-8e35-4106-9cd3-3f2001892cc7"
+                },
+                {
+                    "description": "Dimension '5' on F.Silkscreen",
+                    "pos": {
+                        "x": 335.48,
+                        "y": 54.28
+                    },
+                    "uuid": "4bda17fb-a51b-4e73-be77-17327872b902"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 44.75,
+                        "y": 49.25
+                    },
+                    "uuid": "4bad7835-0e49-4fa2-84f9-c099557eb7db"
+                },
+                {
+                    "description": "Dimension '5.005' on F.Silkscreen",
+                    "pos": {
+                        "x": 49.7325,
+                        "y": 149.525
+                    },
+                    "uuid": "d60c0b04-0cef-40ff-9045-6f97ba6c5823"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 340.45,
+                        "y": 49.3
+                    },
+                    "uuid": "669100f8-8e35-4106-9cd3-3f2001892cc7"
+                },
+                {
+                    "description": "Dimension '5' on F.Silkscreen",
+                    "pos": {
+                        "x": 335.48,
+                        "y": 54.28
+                    },
+                    "uuid": "d67e4ace-09fc-4720-93ce-c62ac10c3ed0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 29.275
+                    },
+                    "uuid": "89e84ebd-f82e-4fad-aad3-ab4a42b8f70e"
+                },
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 65.35,
+                        "y": 37.55
+                    },
+                    "uuid": "ac169d5b-2c68-4342-ad61-36734e2a7e44"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 29.275
+                    },
+                    "uuid": "89e84ebd-f82e-4fad-aad3-ab4a42b8f70e"
+                },
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 65.16,
+                        "y": 29.835
+                    },
+                    "uuid": "94a9e4fe-2571-49af-88d6-e05040b5ae28"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 29.275
+                    },
+                    "uuid": "89e84ebd-f82e-4fad-aad3-ab4a42b8f70e"
+                },
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 65.16,
+                        "y": 47.615
+                    },
+                    "uuid": "f1beb422-5a47-429a-893c-8d2f07a1684d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 29.275
+                    },
+                    "uuid": "89e84ebd-f82e-4fad-aad3-ab4a42b8f70e"
+                },
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 100.72,
+                        "y": 47.615
+                    },
+                    "uuid": "1b74b6b9-1e00-4fb2-8d9c-877ff503b683"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 29.275
+                    },
+                    "uuid": "89e84ebd-f82e-4fad-aad3-ab4a42b8f70e"
+                },
+                {
+                    "description": "Segment of U1 on B.Silkscreen",
+                    "pos": {
+                        "x": 65.16,
+                        "y": 29.835
+                    },
+                    "uuid": "66d4cb10-5720-437c-b5fe-bfb1f2823f27"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 29.275
+                    },
+                    "uuid": "89e84ebd-f82e-4fad-aad3-ab4a42b8f70e"
+                },
+                {
+                    "description": "Segment of U1 on B.Silkscreen",
+                    "pos": {
+                        "x": 65.16,
+                        "y": 47.615
+                    },
+                    "uuid": "d7de9af1-7e1f-48c0-9b4e-b1840f3ce264"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 29.275
+                    },
+                    "uuid": "89e84ebd-f82e-4fad-aad3-ab4a42b8f70e"
+                },
+                {
+                    "description": "Segment of U1 on B.Silkscreen",
+                    "pos": {
+                        "x": 67.7,
+                        "y": 47.615
+                    },
+                    "uuid": "bd4a34e4-906f-4629-93f1-5c2eb8937f52"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Dimension '5' on F.Silkscreen",
+                    "pos": {
+                        "x": 335.48,
+                        "y": 54.28
+                    },
+                    "uuid": "4bda17fb-a51b-4e73-be77-17327872b902"
+                },
+                {
+                    "description": "Dimension '5' on F.Silkscreen",
+                    "pos": {
+                        "x": 335.48,
+                        "y": 54.28
+                    },
+                    "uuid": "d67e4ace-09fc-4720-93ce-c62ac10c3ed0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Footprint text of U1 (SCK/18)",
+                    "pos": {
+                        "x": 91.83,
+                        "y": 42.8144
+                    },
+                    "uuid": "7ebf005d-59e1-4a5a-be52-84e5212e0e77"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Footprint text of U1 (MISO/20)",
+                    "pos": {
+                        "x": 94.2938,
+                        "y": 42.535
+                    },
+                    "uuid": "c11258cd-5da8-4249-b382-c9c739ed1a75"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 65.35,
+                        "y": 37.55
+                    },
+                    "uuid": "ac169d5b-2c68-4342-ad61-36734e2a7e44"
+                },
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 65.16,
+                        "y": 47.615
+                    },
+                    "uuid": "f1beb422-5a47-429a-893c-8d2f07a1684d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PTH pad 1 [unconnected-(U1-D+-Pad1)] of U1",
+                    "pos": {
+                        "x": 68.97,
+                        "y": 31.105
+                    },
+                    "uuid": "1f2f2f35-4ddb-40eb-8ab2-e9b9b7dfb3ae"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "PTH pad 3 [/ROW1] of U1",
+                    "pos": {
+                        "x": 74.05,
+                        "y": 31.105
+                    },
+                    "uuid": "982d788d-bf58-46fa-a0fe-f73c11688868"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "PTH pad 2 [/ROW0] of U1",
+                    "pos": {
+                        "x": 71.51,
+                        "y": 31.105
+                    },
+                    "uuid": "8fc4bdf5-9fb2-4800-a4aa-13a47b770921"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "PTH pad 4 [GND] of U1",
+                    "pos": {
+                        "x": 76.59,
+                        "y": 31.105
+                    },
+                    "uuid": "badaac6e-ffe4-4991-b208-6aa877a60151"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Footprint text of U1 (3.3V)",
+                    "pos": {
+                        "x": 79.0792,
+                        "y": 43.7034
+                    },
+                    "uuid": "e1c2d79d-eb5e-4e58-a349-c50749e64e2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Footprint text of U1 (D10)",
+                    "pos": {
+                        "x": 99.4246,
+                        "y": 43.9574
+                    },
+                    "uuid": "8bcea12a-fec6-4498-88fb-6d5f87e421a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Footprint text of U1 (D-)",
+                    "pos": {
+                        "x": 68.97,
+                        "y": 44.186
+                    },
+                    "uuid": "f94b71fc-bfc6-49ab-907b-1fff4f39ee37"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (RAW)",
+                    "pos": {
+                        "x": 71.51,
+                        "y": 44.186
+                    },
+                    "uuid": "0f885cc3-7207-49e8-a4fd-f71aa03dea6b"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 67.7,
+                        "y": 32.375
+                    },
+                    "uuid": "a2857fa0-3063-4134-8457-7c428bf9ff2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 70.24,
+                        "y": 32.375
+                    },
+                    "uuid": "5d1201e6-01e2-4925-bb55-892e7a0c1f0b"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Footprint text of U1 (RST)",
+                    "pos": {
+                        "x": 76.5392,
+                        "y": 43.7034
+                    },
+                    "uuid": "703a9fbb-1a3c-41a9-8a48-55ef4b146df7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (A3/29)",
+                    "pos": {
+                        "x": 81.5938,
+                        "y": 43.1954
+                    },
+                    "uuid": "5ab1d795-6dd6-48ed-817f-80e6b13d1917"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "PTH pad 5 [GND] of U1",
+                    "pos": {
+                        "x": 79.13,
+                        "y": 31.105
+                    },
+                    "uuid": "d3b8dd64-e17b-4ce5-9029-7ec1929c1fae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "PTH pad 6 [/ROW2] of U1",
+                    "pos": {
+                        "x": 81.67,
+                        "y": 31.105
+                    },
+                    "uuid": "78962472-daaf-4070-a608-98d153a56550"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (A2/28)",
+                    "pos": {
+                        "x": 84.1338,
+                        "y": 43.1954
+                    },
+                    "uuid": "57ba4598-c417-455d-b5df-5c35e84de34a"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Footprint text of U1 (A1/27)",
+                    "pos": {
+                        "x": 86.6738,
+                        "y": 43.1954
+                    },
+                    "uuid": "ac02ddf0-58df-4a1e-9e2a-1cee03716b2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "PTH pad 7 [/ROW3] of U1",
+                    "pos": {
+                        "x": 84.21,
+                        "y": 31.105
+                    },
+                    "uuid": "a91a3e39-6d86-45c2-b068-4bbc5a2d685f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PTH pad 8 [/ROW4] of U1",
+                    "pos": {
+                        "x": 86.75,
+                        "y": 31.105
+                    },
+                    "uuid": "06399975-6846-4ac3-b549-1adf89e94f6f"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "PTH pad 9 [/ROW5] of U1",
+                    "pos": {
+                        "x": 89.29,
+                        "y": 31.105
+                    },
+                    "uuid": "e9ec00fe-77f1-41a1-a91a-443c5980d3d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "PTH pad 12 [/COL1] of U1",
+                    "pos": {
+                        "x": 96.91,
+                        "y": 31.105
+                    },
+                    "uuid": "f02559e2-70d5-4c09-a78f-c041c6dd823e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PTH pad 13 [/COL2] of U1",
+                    "pos": {
+                        "x": 99.45,
+                        "y": 31.105
+                    },
+                    "uuid": "55631ef4-71be-4c13-a72b-020063b2002f"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PTH pad 10 [/ROW6] of U1",
+                    "pos": {
+                        "x": 91.83,
+                        "y": 31.105
+                    },
+                    "uuid": "535b0bd3-9d6f-40da-bb3a-45bc194050fb"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 100.72,
+                        "y": 29.835
+                    },
+                    "uuid": "0e7f2aa6-ff90-4c64-aa2d-b4d2367d4c1f"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (A0/26)",
+                    "pos": {
+                        "x": 89.2138,
+                        "y": 43.1954
+                    },
+                    "uuid": "09374bf3-61fa-4785-9969-3999297a7ca2"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                },
+                {
+                    "description": "Footprint text of U1 (MOSI/19)",
+                    "pos": {
+                        "x": 96.8338,
+                        "y": 42.535
+                    },
+                    "uuid": "7244ebc9-5f2a-48d8-b402-917785b9f8f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PTH pad 11 [/COL0] of U1",
+                    "pos": {
+                        "x": 94.37,
+                        "y": 31.105
+                    },
+                    "uuid": "3672ae8b-1906-41d9-a9bc-178025eac593"
+                },
+                {
+                    "description": "Rectangle of U4 on F.Silkscreen",
+                    "pos": {
+                        "x": 66.35,
+                        "y": 43.74
+                    },
+                    "uuid": "6f798167-b0f9-4cd7-bb06-46eef13c6940"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of MX60",
+                    "pos": {
+                        "x": 299.7638,
+                        "y": 131.5
+                    },
+                    "uuid": "54e5d58a-e849-4fd8-bbcf-a134eee35922"
+                },
+                {
+                    "description": "NPTH pad of S4",
+                    "pos": {
+                        "x": 297.38255,
+                        "y": 129.205
+                    },
+                    "uuid": "836be5d9-6f7a-4d1c-8235-8379a96b7fef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of MX61",
+                    "pos": {
+                        "x": 323.5763,
+                        "y": 131.5
+                    },
+                    "uuid": "9067db20-558d-43e3-8434-dc9a4e8e9b27"
+                },
+                {
+                    "description": "NPTH pad of S4",
+                    "pos": {
+                        "x": 321.19505,
+                        "y": 129.205
+                    },
+                    "uuid": "1fe9477d-0b5a-428b-8ef2-438027cdce22"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of MX54",
+                    "pos": {
+                        "x": 61.6388,
+                        "y": 131.5
+                    },
+                    "uuid": "028ffe3a-23b8-4ab9-8e58-941cf8aa5904"
+                },
+                {
+                    "description": "NPTH pad of S3",
+                    "pos": {
+                        "x": 59.25755,
+                        "y": 129.205
+                    },
+                    "uuid": "d05f583f-446d-4ff7-aaf4-cb8110227a56"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of MX55",
+                    "pos": {
+                        "x": 85.4513,
+                        "y": 131.5
+                    },
+                    "uuid": "14b50ab4-88a7-40d7-b901-f6d637b58601"
+                },
+                {
+                    "description": "NPTH pad of S3",
+                    "pos": {
+                        "x": 83.07005,
+                        "y": 129.205
+                    },
+                    "uuid": "24cd198f-cc29-4e3e-b4b1-dbd2e6573b65"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (D+)",
+                    "pos": {
+                        "x": 68.97,
+                        "y": 33.645
+                    },
+                    "uuid": "ab85a8ed-dc42-4168-8460-e65d1988625a"
+                },
+                {
+                    "description": "PTH pad 4 [unconnected-(U4-SDA-Pad4)] of U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 33.93
+                    },
+                    "uuid": "21301753-102a-4476-895b-48f6d9eba6ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of U1 (D+)",
+                    "pos": {
+                        "x": 68.94,
+                        "y": 33.625
+                    },
+                    "uuid": "462db313-2f8f-4210-8edf-b86f1c16d1a6"
+                },
+                {
+                    "description": "PTH pad 4 [unconnected-(U4-SDA-Pad4)] of U4",
+                    "pos": {
+                        "x": 67.85,
+                        "y": 33.93
+                    },
+                    "uuid": "21301753-102a-4476-895b-48f6d9eba6ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}
